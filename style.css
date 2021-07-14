@@ -31,6 +31,7 @@ main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	height: 100px;
 }
 
 .footer {
@@ -39,4 +40,7 @@ main {
 	width: 400px;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
+}
+.wrapper {
+	flex-direction: column;
 }
